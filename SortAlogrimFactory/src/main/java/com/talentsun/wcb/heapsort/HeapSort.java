@@ -1,6 +1,6 @@
 package com.talentsun.wcb.heapsort;
 
-import com.talentsun.wcb.sort.Sort;
+import com.talentsun.wcb.sort.sort;
 import com.talentsun.wcb.utils.SortUtils;
 
 /**
@@ -10,7 +10,7 @@ import com.talentsun.wcb.utils.SortUtils;
  */
 
 //建立堆算法
-public class HeapSort implements Sort {
+public class HeapSort implements sort {
     private void heapAdjust(int[] arr,int root,int end){
         int temp = arr[root];
         for(int i=2*root+1;i<end;i*=2){

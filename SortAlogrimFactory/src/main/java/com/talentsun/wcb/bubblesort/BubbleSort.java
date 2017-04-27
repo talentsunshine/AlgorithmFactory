@@ -1,6 +1,6 @@
 package com.talentsun.wcb.bubblesort;
 
-import com.talentsun.wcb.sort.Sort;
+import com.talentsun.wcb.sort.sort;
 import com.talentsun.wcb.utils.SortUtils;
 
 /**
@@ -9,7 +9,7 @@ import com.talentsun.wcb.utils.SortUtils;
  * 时间复杂度 -> O(N)
  * 空间复杂度 ->
  */
-public class BubbleSort implements Sort{
+public class BubbleSort implements sort {
     private void bubbleSort(int[] arr){
         int length = arr.length;
         for(int i = 0; i< length -1;i++){

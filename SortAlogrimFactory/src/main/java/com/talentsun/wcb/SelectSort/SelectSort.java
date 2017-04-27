@@ -1,6 +1,6 @@
 package com.talentsun.wcb.SelectSort;
 
-import com.talentsun.wcb.sort.Sort;
+import com.talentsun.wcb.sort.sort;
 import com.talentsun.wcb.utils.SortUtils;
 
 /**
@@ -9,7 +9,7 @@ import com.talentsun.wcb.utils.SortUtils;
  * 时间复杂度 -> O(N)
  * 空间复杂度 ->
  */
-public class SelectSort implements Sort{
+public class SelectSort implements sort {
     private void selectSort(int[] arr){
         int length = arr.length;
         int minIndex = 0;
