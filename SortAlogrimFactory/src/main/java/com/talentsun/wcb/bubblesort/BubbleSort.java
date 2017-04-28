@@ -5,6 +5,7 @@ import com.talentsun.wcb.utils.SortUtils;
 
 /**
  * Created by talentsun on 2017/4/25.
+ * 算法思想：相邻节点比较，冒泡向上
  * 比较 n-1次
  * 时间复杂度 -> O(N)
  * 空间复杂度 ->

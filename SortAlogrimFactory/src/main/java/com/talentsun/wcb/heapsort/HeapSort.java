@@ -5,6 +5,7 @@ import com.talentsun.wcb.utils.SortUtils;
 
 /**
  * Created by Administrator on 2017/4/25.
+ * 算法思想：堆属性
  * 时间复杂度 -> O(logn)
  * 空间复杂度 ->
  */

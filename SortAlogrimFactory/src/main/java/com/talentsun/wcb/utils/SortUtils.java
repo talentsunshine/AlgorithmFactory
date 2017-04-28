@@ -10,4 +10,11 @@ public class SortUtils {
         arr[j] =  temp;
 
     }
+
+    public static boolean varify(int[] arr){
+        if(arr.length == 0 || arr == null){
+            return false;
+        }
+        return true;
+    }
 }
