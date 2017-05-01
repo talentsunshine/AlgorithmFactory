@@ -6,7 +6,7 @@ import com.talentsun.wcb.sort.sort;
  * Created by hasee on 2017/4/27.
  * 从1 开始，
  * 算法思想：相邻比较，其余向前移动。最后查找合适位置插入
- * 时间复杂度：
+ * 时间复杂度：O(N^2)
  * 空间复杂度：
  *
  */

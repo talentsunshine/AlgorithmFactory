@@ -1,28 +1,29 @@
 package com.talentsun.wcb.quicksort;
 
+
 import com.talentsun.wcb.sort.sort;
 
 /**
  * Created by talentsun on 2017/4/28.
  * 思想：分治算法
- * 时间复杂度 O(nlogn)
+ * 时间复杂度 O(nlgn)
  * 空间复杂度：
  */
 public class QuickSort implements sort {
 
     private int patition(int[] arr,int left,int right){
-        int priokey = arr[left];
+        int pivotKey = arr[left];
         while(left<right){
-            while(left <right && arr[right] >= priokey)
+            while(left <right && arr[right] >= pivotKey)
                 right --;
             arr[left] =  arr[right];
 
-            while(left<right && arr[left] <= priokey)
+            while(left<right && arr[left] <= pivotKey)
                 left ++;
             arr[right] = arr[left];
 
         }
-        arr[left] = priokey;
+        arr[left] = pivotKey;
         return left;
     }
     private void QuickSort(int[] arr,int left,int right){

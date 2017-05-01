@@ -7,7 +7,7 @@ import com.talentsun.wcb.utils.SortUtils;
  * Created by talentsun on 2017/4/25.
  * 比较 n-1 次
  * 算法思想：全序列扫描，选择合适地点插入
- * 时间复杂度 -> O(N)
+ * 时间复杂度 -> O(N^2)
  * 空间复杂度 ->
  */
 public class SelectSort implements sort {
