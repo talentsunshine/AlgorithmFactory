@@ -9,6 +9,8 @@ public class SortUtils {
         arr[i] = arr[j];
         arr[j] =  temp;
 
+
+
     }
 
     public static boolean varify(int[] arr){

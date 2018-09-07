@@ -23,10 +23,6 @@ public class ShellSort implements sort {
                 arr[j+d] = temp;
             }
         }
-
-
-
-
     }
 
     public void sort(int[] arr) {

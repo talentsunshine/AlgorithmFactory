@@ -31,4 +31,7 @@ public class SelectSort implements sort {
     public void sort(int[] arr) {
         selectSort(arr);
     }
+
+
+    protected static void init(){}
 }
